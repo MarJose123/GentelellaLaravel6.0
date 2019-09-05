@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysis>
+  <link href="https://insight.sensiolabs.com/api/projects/e48a2925-794b-432d-9a2f-178be2fdd2c9/analyses/1" rel="self" type="application/vnd.com.sensiolabs.insight+xml"/>
+  <link href="https://insight.sensiolabs.com/api/projects/e48a2925-794b-432d-9a2f-178be2fdd2c9/analyses/1/status" rel="status" type="application/vnd.com.sensiolabs.insight+xml"/>
+  <link href="https://insight.sensiolabs.com/api/projects/e48a2925-794b-432d-9a2f-178be2fdd2c9" rel="project" type="application/vnd.com.sensiolabs.insight+xml"/>
+  <link href="https://insight.sensiolabs.com/projects/e48a2925-794b-432d-9a2f-178be2fdd2c9/analyses/1" rel="self" type="text/html"/>
+  <status><![CDATA[finished]]></status>
+  <violations>
+    <violation severity="major" category="performance" ignored="false">
+      <line>0</line>
+      <resource><![CDATA[./]]></resource>
+      <title>Web applications should contain a favicon</title>
+      <message><![CDATA[No favicon found in the web root directory]]></message>
+      <context/>
+      <link href="https://insight.sensiolabs.com/projects/e48a2925-794b-432d-9a2f-178be2fdd2c9/analyses/1?status=new#784214809" rel="self" type="text/html"/>
+    </violation>
+  </violations>
+  <grades>
+    <entry><![CDATA[none]]></entry>
+    <entry><![CDATA[bronze]]></entry>
+    <entry><![CDATA[silver]]></entry>
+    <entry><![CDATA[gold]]></entry>
+    <entry><![CDATA[platinum]]></entry>
+  </grades>
+  <failed>false</failed>
+  <grade><![CDATA[bronze]]></grade>
+  <next-grade><![CDATA[silver]]></next-grade>
+  <begin-at><![CDATA[2019-09-05T08:45:24+0200]]></begin-at>
+  <end-at><![CDATA[2019-09-05T08:45:44+0200]]></end-at>
+  <duration>1</duration>
+  <number>1</number>
+  <altered>false</altered>
+  <remediation-cost>1</remediation-cost>
+  <nb-violations>1</nb-violations>
+  <reference><![CDATA[7ae8517b90374fa100b02fb42a7327ed866d4131]]></reference>
+  <launched-by><![CDATA[marjose]]></launched-by>
+  <configuration>
+    <ignored-branches>
+      <branch><![CDATA[gh-pages]]></branch>
+    </ignored-branches>
+    <pre-composer-script/>
+    <post-composer-script/>
+    <working-directory/>
+    <php-version/>
+    <php-ini/>
+    <commit-failure-conditions>
+      <branch><![CDATA[project.severity.critical > 0]]></branch>
+      <branch><![CDATA[project.severity.major > 0]]></branch>
+    </commit-failure-conditions>
+    <global-excluded-dirs>
+      <dir><![CDATA[vendor]]></dir>
+      <dir><![CDATA[vendors]]></dir>
+      <dir><![CDATA[test]]></dir>
+      <dir><![CDATA[tests]]></dir>
+      <dir><![CDATA[Tests]]></dir>
+      <dir><![CDATA[spec]]></dir>
+      <dir><![CDATA[features]]></dir>
+      <dir><![CDATA[Fixtures]]></dir>
+      <dir><![CDATA[DataFixtures]]></dir>
+      <dir><![CDATA[var]]></dir>
+    </global-excluded-dirs>
+    <excluded-patterns>
+      <pattern><![CDATA[app/check.php]]></pattern>
+      <pattern><![CDATA[app/SymfonyRequirements.php]]></pattern>
+      <pattern><![CDATA[public/index.php]]></pattern>
+      <pattern><![CDATA[web/config.php]]></pattern>
+      <pattern><![CDATA[web/app_*.php]]></pattern>
+      <pattern><![CDATA[config/bootstrap.php]]></pattern>
+    </excluded-patterns>
+    <patterns>
+      <file>
+        <pattern><![CDATA[*.php]]></pattern>
+        <pattern><![CDATA[*.twig]]></pattern>
+        <pattern><![CDATA[*.xml]]></pattern>
+        <pattern><![CDATA[*.yml]]></pattern>
+        <pattern><![CDATA[*.yaml]]></pattern>
+        <pattern><![CDATA[*.ini]]></pattern>
+        <pattern><![CDATA[*.dist]]></pattern>
+        <pattern><![CDATA[*.sql]]></pattern>
+        <pattern><![CDATA[*.md]]></pattern>
+        <pattern><![CDATA[*.rst]]></pattern>
+        <pattern><![CDATA[composer.*]]></pattern>
+        <pattern><![CDATA[.gitignore]]></pattern>
+        <pattern><![CDATA[LICENSE]]></pattern>
+        <pattern><![CDATA[README]]></pattern>
+        <pattern><![CDATA[Makefile]]></pattern>
+        <pattern><![CDATA[.htaccess]]></pattern>
+      </file>
+      <php>
+        <pattern><![CDATA[*.php]]></pattern>
+      </php>
+      <twig>
+        <pattern><![CDATA[*.twig]]></pattern>
+      </twig>
+    </patterns>
+    <rules>
+      <rule name="symfony.use_dir_file_constant" enabled="false"/>
+    </rules>
+    <parameters>
+      <parameter name="project_type">8</parameter>
+    </parameters>
+    <env/>
+    <notifications/>
+  </configuration>
+  <previous-analyses-references>
+    <analysis-reference number="1">7ae8517b90374fa100b02fb42a7327ed866d4131</analysis-reference>
+  </previous-analyses-references>
+  <nb-violations-new>1</nb-violations-new>
+  <nb-violations-existing>0</nb-violations-existing>
+  <nb-violations-fixed>0</nb-violations-fixed>
+  <nb-violations-ignored>0</nb-violations-ignored>
+</analysis>
