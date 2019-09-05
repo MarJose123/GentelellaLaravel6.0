@@ -24,13 +24,13 @@
 <div class="container body">
     <div class="main_container">
         <!-- Side Bar Navigation -->
-        @include('sidebar')
+        @include('AdminPanel.sidebar')
         <!-- Top Navigation Bar -->
-        @include('navbar')
+        @include('AdminPanel.navbar')
         <!-- Body Content -->
         @yield('content')
         <!-- Footer -->
-        @include('footer')
+        @include('AdminPanel.footer')
     </div>
 </div>
 

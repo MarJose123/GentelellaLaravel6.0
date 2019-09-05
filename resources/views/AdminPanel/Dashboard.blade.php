@@ -1,4 +1,4 @@
-@extends('master_template')
+@extends('AdminPanel.master_template')
 
 @section('content')
     <!-- page content -->
