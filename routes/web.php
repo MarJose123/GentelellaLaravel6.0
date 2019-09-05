@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('AdminPanel.Dashboard');
 });
+
+Route::get('/login', function(){
+   return view('Auth.login');
+});
