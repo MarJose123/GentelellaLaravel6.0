@@ -1,5 +1,8 @@
 @extends('AdminPanel.master_template')
 
+
+@section('title', 'Gentelella - Boilerplate')
+
 @section('content')
     <!-- page content -->
     <div class="right_col" role="main">
